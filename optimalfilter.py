@@ -48,7 +48,8 @@ def optimalfilter(p_main, p_ref, L):
 
     # # adding the mean of the original signal
     # p_filtered += np.mean(p_main)
-    return p_filtered, f
+    return p_filtered
+    #, f
     # return p_filtered, p_noise
 
 
